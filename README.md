@@ -16,17 +16,21 @@ Ce projet a été réalisé dans le cadre de l’optimisation SEO et de la perfo
 - Optimiser un site existant pour améliorer ses performances et son référencement naturel.
 - Corriger les erreurs d’accessibilité et valider le HTML / CSS.
 - Produire un rapport d’audit détaillant les optimisations mises en œuvre.
+- Fournir un rapport d'audit complet.
 
 ---
 
 ##  Fonctionnalités implémentées
 
--  **Minification des fichiers JS & CSS**
--  **Optimisation des images via compression**
--  **Mise en cache via `.htaccess`**
--  **Balises HTML sémantiques**
--  **Meta description et titre optimisés**
--  **Score Lighthouse SEO : 100%**
+-  Minification des fichiers JS & CSS
+-  Optimisation des images via compression
+-  Balises HTML sémantiques (`<header>`, `<main>`, `<section>`, etc.)
+-  Meta description et titre optimisés
+-  Compression des images (.webp via [Squoosh](https://squoosh.app))
+-  Textes alternatifs (alt) descriptifs sur toutes les images
+-  Labels liés aux inputs
+-  Structure logique des titres (`<h1>` à `<h3>`)
+
 
 ---
 
@@ -44,9 +48,9 @@ Ce projet a été réalisé dans le cadre de l’optimisation SEO et de la perfo
 
 Audit          Score
 
-Performance      75
+Performance      95
 Accessibilité    96
-Bonnes pratiques 96
+Bonnes pratiques 100
 SEO              100
 
 ---
@@ -59,4 +63,4 @@ SEO              100
 
 ## Auteurs
 
-Projet réalisé par **Krystel** dans le cadre du parcours Développeur Web chez OpenClassrooms.
+Projet réalisé par **Krystel** dans le cadre du parcours Intégrateur Web chez OpenClassrooms.
