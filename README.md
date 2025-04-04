@@ -23,24 +23,24 @@ Ce projet a été réalisé dans le cadre de l’optimisation SEO et de la perfo
 ##  Fonctionnalités implémentées
 
 -  Minification des fichiers JS & CSS
--  Optimisation des images via compression
 -  Balises HTML sémantiques (`<header>`, `<main>`, `<section>`, etc.)
--  Meta description et titre optimisés
+-  Optimisation SEO (`meta title` + `meta description`, balises `og:title`, `og:description`, données structurées `schema.org/LocalBusiness`)
 -  Compression des images (.webp via [Squoosh](https://squoosh.app))
 -  Textes alternatifs (alt) descriptifs sur toutes les images
 -  Labels liés aux inputs
 -  Structure logique des titres (`<h1>` à `<h3>`)
-
+-  Suppression de fichiers inutiles
 
 ---
 
 ##  Outils utilisés
 
-- Lighthouse (version desktop)
-- [Validator W3C](https://validator.w3.org/nu/)
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) (version desktop)
+- [GTMetrix](https://gtmetrix.com/)
+- [WAVE Accessibility Tool](https://wave.webaim.org/)
+- [W3C Validator](https://validator.w3.org/nu/)
 - [Compressor.io](https://compressor.io/)
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
-- [Minifier JS & CSS (Toptal)](https://www.toptal.com/developers/tools)
+- [Toptal Minifier](https://www.toptal.com/developers/tools)
 
 ---
 
@@ -48,19 +48,18 @@ Ce projet a été réalisé dans le cadre de l’optimisation SEO et de la perfo
 
 Audit          Score
 
-Performance      95
-Accessibilité    96
+Performance      99
+Accessibilité    100
 Bonnes pratiques 100
 SEO              100
-
----
-
-## Dépôt GitHub
-
-👉 [Voir le site en ligne](https://krystel.github.io/ninacarducci.github.io-main/)
 
 ---
 
 ## Auteurs
 
 Projet réalisé par **Krystel** dans le cadre du parcours Intégrateur Web chez OpenClassrooms.
+
+
+## Aide
+- Open Graph permettent un affichage optimisé lors du partage du site sur les réseaux.
+- Les données structurées Schema.org améliorent le référencement local (adresse, horaires, téléphone).
